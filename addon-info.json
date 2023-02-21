@@ -1,0 +1,10 @@
+{
+  "name": "cppinsights",
+  "description": "Vim extension for C++ Insights",
+  "version": "0.0.1",
+  "author": "Wu Zhenyu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Freed-Wu/cppinsights.vim"
+  }
+}
