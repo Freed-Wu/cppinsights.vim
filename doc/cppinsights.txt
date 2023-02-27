@@ -17,19 +17,15 @@ INTRODUCTION                                               *cppinsights-intro*
 ==============================================================================
 CONFIGURATION                                             *cppinsights-config*
 
-                                            *cppinsights:g:loaded_cppinsights*
-Configure if load cppinsights.
-Default: 1 `
-
-                                          *cppinsights:g:cppinsights_vertical*
+                                          *cppinsights:g:cppinsights#vertical*
 Configure if |:vertical| |:split|.
 Default: 1 `
 
-                                               *cppinsights:g:cppinsights_cmd*
+                                               *cppinsights:g:cppinsights#cmd*
 Configure what command use. If not exists, will warn and exit.
 Default: 'insights' `
 
-                                       *cppinsights:g:cppinsights_window_name*
+                                       *cppinsights:g:cppinsights#window_name*
 Configure what window name use for split window. See |%:r|.
 Default: '%:r-insights.cpp' `
 
