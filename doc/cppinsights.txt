@@ -29,6 +29,11 @@ Default: 'insights' `
 Configure what window name use for split window. See |%:r|.
 Default: '%:r-insights.cpp' `
 
+                                        *cppinsights:g:cppinsights#extra_args*
+Configure extra arguments used by `insights`. See `insights --help`. Such as
+`-- -std=c++17`.
+Default: '' `
+
 ==============================================================================
 COMMANDS                                                *cppinsights-commands*
 

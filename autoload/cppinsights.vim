@@ -13,6 +13,10 @@ call g:cppinsights#utils#plugin.Flag('g:cppinsights#cmd', 'insights')
 ""
 " Configure what window name use for split window. See |%:r|.
 call g:cppinsights#utils#plugin.Flag('g:cppinsights#window_name', '%:r-insights.cpp')
+""
+" Configure extra arguments used by `insights`. See `insights --help`.
+" Such as `-- -std=c++17`.
+call g:cppinsights#utils#plugin.Flag('g:cppinsights#extra_args', '')
 
 ""
 " Main function for |:Insights|.
@@ -22,7 +26,7 @@ function! cppinsights#main(bang) abort
   else
     let l:null = '/dev/null'
   endif
-  let l:cmd = g:cppinsights#cmd . ' ' . expand('%') . ' 2>' . l:null
+  let l:cmd = g:cppinsights#cmd . ' ' . expand('%') . ' ' . g:cppinsights#extra_args . ' 2>' . l:null
   try
     let l:text = trim(system(l:cmd))
   catch /^Vim\%((\a\+)\)\=:E677:/
