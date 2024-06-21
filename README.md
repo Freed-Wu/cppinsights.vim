@@ -26,6 +26,8 @@
 [![github/repo-size](https://shields.io/github/repo-size/Freed-Wu/cppinsights.vim)](https://github.com/Freed-Wu/cppinsights.vim)
 [![github/v](https://shields.io/github/v/release/Freed-Wu/cppinsights.vim)](https://github.com/Freed-Wu/cppinsights.vim)
 
+[![luarocks](https://img.shields.io/luarocks/v/Freed-Wu/cppinsights.vim)](https://luarocks.org/modules/Freed-Wu/cppinsights.vim)
+
 ![screenshot](https://user-images.githubusercontent.com/32936898/220273531-d183042e-50e5-4ddf-b782-866bae786e44.jpg)
 
 ## Install
